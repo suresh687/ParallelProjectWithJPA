@@ -1,0 +1,5 @@
+***************Customer Table**********************
+create table customerw(mobileno varchar2(255) primary key,name varchar2(255),balance number(20));
+
+***************Transaction table to store transactions******************
+create table transactions(tranid number(20) primary key,mobileno varchar2(255),trantype varchar2(255),balance number(30),trandate timestamp);
